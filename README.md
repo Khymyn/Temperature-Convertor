@@ -43,16 +43,19 @@ F -> C          C -> F          K -> C          C -> K          F -> K          
   0 ->  -17.8     0 ->   32.0     0 -> -273.1     0 ->  273.1     0 ->  255.4     0 -> -459.7
 ```
 
-Compilation and execution
+##Compilation and execution
 
 Compile the program using GCC:
 
+```text
 gcc main.c -o temperature_converter
+```
 
 Run the program:
-
+```text
 ./temperature_converter
-
+```
 On Windows:
-
+```text
 temperature_converter.exe
+```
