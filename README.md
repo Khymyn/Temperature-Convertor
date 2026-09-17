@@ -42,3 +42,17 @@ F -> C          C -> F          K -> C          C -> K          F -> K          
  20 ->   -6.7    20 ->   68.0    20 -> -253.1    20 ->  293.1    20 ->  266.5    20 -> -423.7
   0 ->  -17.8     0 ->   32.0     0 -> -273.1     0 ->  273.1     0 ->  255.4     0 -> -459.7
 ```
+
+Compilation and execution
+
+Compile the program using GCC:
+
+gcc main.c -o temperature_converter
+
+Run the program:
+
+./temperature_converter
+
+On Windows:
+
+temperature_converter.exe
